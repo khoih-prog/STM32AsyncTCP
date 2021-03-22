@@ -1,18 +1,31 @@
 {
   "name":"STM32AsyncTCP",
+  "version": "1.0.1",
   "description":"Asynchronous TCP Library for ESP8266",
   "keywords":"async,tcp",
-  "authors":
-  {
-    "name": "Hristo Gochkov",
-    "maintainer": true
-  },
+  "authors": 
+  [
+    {
+      "name": "Hristo Gochkov",
+      "url":   "https://github.com/me-no-dev"
+    },
+    {
+      "name":  "Phil Bowles",
+      "url":   "https://github.com/philbowles",
+      "email": "philbowles2012@gmail.com",
+    },
+    {
+      "name":  "Khoi Hoang",
+      "url":   "https://github.com/khoih-prog",
+      "email": "khoih.prog@gmail.com",
+      "maintainer": true
+    }  
+  ],
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/me-no-dev/STM32AsyncTCP.git"
+    "url": "https://github.com/khoih-prog/STM32AsyncTCP.git"
   },
-  "version": "1.2.2",
   "license": "LGPL-3.0",
   "frameworks": "arduino",
   "platforms": "stm32"
